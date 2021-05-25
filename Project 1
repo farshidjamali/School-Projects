@@ -1,2 +1,21 @@
-This is for project one.
-The language is ABC.
+Title: Develop a relational database for a health clinic.
+Design and develop a relational database for a health clinic. This database will be used for three purposes:
+-Keep track of employees who work for the clinic
+-Keep track of patients who receive various services from the clinic
+-Keep track of suppliers (vendors) who provide the clinic with a variety of medical consumables* and drugs/medications along with the present supply inventory levels in the clinic.
+*Consumables are medical supplies like syringes and needles, gauze, medical gloves, masks, etc.
+The implementation of the relational database will be done using PostgreSQL DBMS (database management system).
+
+
+A relational database is designed, developed, and implemented (on a remote server) for a health clinic management system (HCMS), where all the essential information surrounding the employees, patients, and vendors will be recorded and maintained.
+The project team collaborated remotely and used GitLab for planning and version control.
+
+This project has three major phases:
+(1) business requirements gathering,
+Analyzing the requirements and objectives to define all the possible meaningful business queries 
+Also, creating a data dictionary that contains all entities, attributes, data types, lengths, and date format 
+(2) conceptual and logical design,
+Designing an ER diagram with all the entities and relationships and converting it to a logical schema.
+(3) database implementation and testing,
+We used PostgreSQL to create the tables and populate them with dummy data on the database server. 
+
